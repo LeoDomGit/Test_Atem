@@ -1,0 +1,28 @@
+#gameBoard {
+    width: 300px;
+    margin: auto;
+  }
+  
+  .cell {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    cursor: pointer;
+  }
+  
+  .cell:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .cell.x {
+    color: red;
+  }
+  
+  .cell.o {
+    color: blue;
+  }
+  
